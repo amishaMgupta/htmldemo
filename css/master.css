@@ -1,0 +1,35 @@
+html,body,.section-1,.section-2{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin:0;
+}
+header{
+    background-color: #ddd;
+    padding: 1em;
+}
+.section-1{
+    text-align: center;
+    padding-top: 10em;
+    background-image: url("../images/p1.jpg");
+    background-attachment: fixed;
+}        
+.section-1 img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.section-1 a{
+    border: 2px solid #ddd;
+    padding: 1em;
+    border-radius: 15px;
+    display: block;
+    margin : 2em auto;
+    width : 10em;
+}
+.section-2{
+    background-image: url("../images/p4.jpg");
+    background-attachment: fixed;
+
+}
